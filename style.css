@@ -1,6 +1,106 @@
+/* Universal */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: red;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
+/* Shared Elements */
+.common{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.btn{
+    padding: 12.5px 16px;
+    border: none;
+    background-color: #469165;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.btn1{
+    background: none;
+    border: 2px solid white;
+}
+.btn:hover{
+    background-color: #ff5500;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.242);
+}
+
+/* Main Elements */
+
+/* Navbar Section */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+
+}
+.nav-menu ul li{
+    line-height: 152%;
+    
+}
+/* Banner Section */
+.banner{
+    background: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    color: white;
+}
+.banner-content{
+    padding: 115px 120px 180px;
+    text-align: center;
+    max-width: 970px;
+    margin: 0 auto;
+    
+}
+.btn-early{
+    padding: 8px 12px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    border-radius: 1000px;
+
+}
+.banner-content h1{
+    font-size: 72px;
+    line-height: 84px;
+    opacity: 90%;
+    padding: 16px 0;
+}
+.banner-content h1 span{
+    color: #30B868;
+}
+.banner-content p{
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+.banner-content p span{
+    display: block;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* Notes Section */
+
+/* Second Brain Section */
+
+/* Early Access Section */
+
+/* Footer Section */
