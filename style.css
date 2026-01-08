@@ -69,7 +69,7 @@
     padding: 8px 12px;
     border: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: #469165;
     border-radius: 1000px;
 
@@ -98,9 +98,109 @@
 }
 
 /* Notes Section */
+.notes-container{
+    margin-top: 50px;
+    text-align: center;
+}
+.notes-title h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    line-height: auto;
+}
+.notes-title p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.notes-cards{
+    display: flex;
+    gap: 24px;
+}
+.notes-single-card{
+    padding: 60px 24px;
+    /* border: 1px solid tomato; */
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.065);
+    margin-bottom: 120px;
+    max-width: 322px;
+    
+    
+}
+.notes-single-card img{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+.notes-single-card h4{
+    font-size: 24px;
+    line-height: auto;
+    color: #001931;
+    font-weight: 600;
+    margin-bottom: 16px;
+    
+}
+.notes-single-card p{
+    color: #627382;
+    line-height: 20px;
+}
 
 /* Second Brain Section */
+.brain-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.brain-content h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.brain-content h2{
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.brain-content p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+.brain-content li{
+    margin-bottom: 6px;
+    display: flex;
+    list-style: none;
+    line-height: 20px;
+    gap: 10px;
+}
 
 /* Early Access Section */
+.early-access{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+.early-content h2{
+    
+}
+.early-content p{
 
+}
+.early-content button{
+
+}
 /* Footer Section */
